@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - CafeDoor
+  - CafeDoor
   layers:
   - Default
   - TransparentFX
@@ -62,4 +64,10 @@ TagManager:
     locked: 0
   - name: character
     uniqueID: 3030041897
+    locked: 0
+  - name: onGameUI
+    uniqueID: 3547114615
+    locked: 0
+  - name: Light
+    uniqueID: 534386873
     locked: 0
