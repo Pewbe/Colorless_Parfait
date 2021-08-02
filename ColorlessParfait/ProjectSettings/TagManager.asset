@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - CafeDoor
   - CafeDoor
+  - checkCollider
   layers:
   - Default
   - TransparentFX
@@ -68,6 +69,12 @@ TagManager:
   - name: onGameUI
     uniqueID: 3547114615
     locked: 0
+  - name: Effect
+    uniqueID: 1501269701
+    locked: 0
   - name: Light
     uniqueID: 534386873
+    locked: 0
+  - name: UI
+    uniqueID: 3598719285
     locked: 0
