@@ -18,7 +18,7 @@ TagManager:
   - objects
   - ' non-conflicting objects'
   - player
-  - 
+  - tile
   - 
   - 
   - 
@@ -71,6 +71,9 @@ TagManager:
     locked: 0
   - name: Effect
     uniqueID: 1501269701
+    locked: 0
+  - name: dark
+    uniqueID: 810596587
     locked: 0
   - name: Light
     uniqueID: 534386873
