@@ -8,20 +8,23 @@ TagManager:
   - CafeDoor
   - CafeDoor
   - checkCollider
+  - HouseDoor
+  - GroundObject
+  - KitchenDoor
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Background
   - Water
   - UI
   - objects
   - ' non-conflicting objects'
   - player
   - tile
-  - 
-  - 
-  - 
+  - interactive object
+  - TriggerCheck
+  - Doors
   - 
   - 
   - 
@@ -54,17 +57,26 @@ TagManager:
   - name: back_cityfront
     uniqueID: 2992809049
     locked: 0
+  - name: Indoor_dark
+    uniqueID: 61519115
+    locked: 0
+  - name: Indoor_background
+    uniqueID: 1425289407
+    locked: 0
   - name: tile
     uniqueID: 3121521013
     locked: 0
   - name: building
     uniqueID: 340230721
     locked: 0
-  - name: object
+  - name: Objects
     uniqueID: 29196025
     locked: 0
   - name: character
     uniqueID: 3030041897
+    locked: 0
+  - name: FrontObjects
+    uniqueID: 1752752627
     locked: 0
   - name: onGameUI
     uniqueID: 3547114615
